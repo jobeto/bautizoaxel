@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#days {
+  font-size: 1.5em;
+  color: rgb(230, 135, 146);
+}
+#hours {
+  font-size: 1.5em;
+  color: rgb(190, 154, 136);
+}
+#minutes {
+  font-size: 1em;
+  color: rgb(230, 135, 146);
+}
+#seconds {
+  font-size: 1em;
+  color: rgb(190, 154, 136);
+}
+#divtimer {
+  display: inline-block !important;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.clock {
+  font-family: 'Covered By Your Grace', cursive !important;
+}
+body {
+  background-color: rgb(252, 251, 248);
+}

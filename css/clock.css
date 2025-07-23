@@ -1,0 +1,299 @@
+.CD_img_desk{
+    display:block
+  }
+  .CD_img_mov{
+    display:none
+  }
+  
+  .overlay {
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+  }
+  .overlay.open {
+    display:block !important;
+    visibility: visible;
+    opacity: 1;
+  }
+
+.popup {
+    margin: 70px auto;
+    -padding: 20px;
+    background: #fff; 
+    width: 50%;
+    -min-width: 400px;
+    max-width: 600px;
+    position: relative;
+    transition: all 1s ease-in-out;
+  }
+
+  #popup_img_top{
+      padding-bottom: 40px;
+      background: white;
+  
+  
+  }
+  
+  #dv_popup_countdown_cerrar{
+  	text-align:center;
+    padding-bottom:20px;
+  }
+  
+  .popup_countdown_close_modal{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    z-index:10;
+  }
+  
+  .popup_countdown_overlay{
+    background: rgba(255,255,255,.7) !important; 
+    padding:20px !important; 
+  
+  }
+  
+  .clock{
+   margin: auto; 
+   width: 780px;
+  }
+
+  .logo21{
+    margin: auto; 
+    width: 250px !important;
+    align-self: center !important;
+  }
+   
+  .flip-clock-label{
+    display:none;
+  font-size:20px  !important; 
+  text-transform:uppercase  !important; 
+  }
+  
+  
+  #dv_titulos_clock{
+    display:table;
+    text-align:left;
+        width: 660px;
+    margin: auto;
+  }
+  
+  .titulo_clock{
+    display:table-cell;
+     width: 10%;
+  font-size:20px  !important; 
+  text-transform:uppercase  !important; 
+    text-align:left;
+  }
+
+  .flip-clock-wrapper ul li a div div.inn { 
+    color: #ccc;
+    text-shadow: 0 1px 2px #ccc; 
+    background-color: #333;
+	font-size:1em;
+  }
+  
+  /* CSS specific to iOS devices */ 
+  @supports (-webkit-overflow-scrolling: touch) { 
+    .flip-clock-wrapper ul li a div div.inn { 
+    	font-size:30px;
+    } 
+  }
+  
+  
+  /*-- DailyCounter --*/
+  #popup_countdown.DailyCounter #dv_titulos_clock{ 
+  	 width: 500px; 
+  }
+  
+   #popup_countdown.DailyCounter .titulo_clock { 
+  	 width: 25%;
+  }
+  
+  #popup_countdown.DailyCounter .clock{
+  	width: 620px !important;
+    zoom: 0.8;
+  }
+  
+  
+  
+  @media screen and (max-width: 1000px){
+    
+    .clock{ 
+        zoom:.3;
+        width:630px !important; 
+      }
+  
+      .logo21{
+          width:100px !important; 
+      }
+  
+      .titulo_clock{
+          font-size:15px !important; 
+        }
+        #dv_titulos_clock {
+          width: 170px;
+        }
+        
+          #popup_countdown.DailyCounter #dv_titulos_clock{ 
+            width: 250px;
+          }
+         #popup_countdown.DailyCounter .titulo_clock{ 
+            font-size: 10px !important;
+          }
+         #popup_countdown.DailyCounter .clock{ 
+          zoom: 0.4;
+        }
+    
+
+  }
+  @media screen and (max-width: 800px){
+    
+     .CD_img_desk{
+    display:none
+  }
+  .CD_img_mov{
+    display:block
+  }
+    
+    
+    #popup_img_top{
+      padding-bottom:20px;
+    }
+    .clock{ 
+        zoom:.3;
+        width:630px !important; 
+      }
+  
+      .logo21{
+          width:100px !important; 
+      }
+  
+      .titulo_clock{
+          font-size:15px !important; 
+        }
+        #dv_titulos_clock {
+          width: 170px;
+        }
+        
+          #popup_countdown.DailyCounter #dv_titulos_clock{ 
+            width: 250px;
+          }
+         #popup_countdown.DailyCounter .titulo_clock{ 
+            font-size: 10px !important;
+          }
+         #popup_countdown.DailyCounter .clock{ 
+          zoom: 0.4;
+        }     
+    
+
+  }
+  @media screen and (max-width: 700px){
+    #popup_img_top{
+      padding-bottom:5px;
+    }
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 80%  !important; 
+    }
+    .clock{ 
+      zoom:.3;
+      width:690px !important; 
+    }
+
+    .logo21{
+        width:100px !important; 
+    }
+
+    .titulo_clock{
+        font-size:15px !important; 
+      }
+      #dv_titulos_clock {
+        width: 17 0px;
+      }
+      
+        #popup_countdown.DailyCounter #dv_titulos_clock{ 
+          width: 250px;
+        }
+       #popup_countdown.DailyCounter .titulo_clock{ 
+          font-size: 10px !important;
+        }
+       #popup_countdown.DailyCounter .clock{ 
+        zoom: 0.4;
+      }
+}
+  @media screen and (max-width: 460px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 80%  !important; 
+    }
+    .clock{ 
+      zoom:.3;
+      width:630px !important; 
+
+    }
+    .titulo_clock{
+      font-size:15px !important; 
+    }
+    #dv_titulos_clock {
+      width: 17 0px;
+    }
+    
+      #popup_countdown.DailyCounter #dv_titulos_clock{ 
+  	  width: 250px;
+  	}
+     #popup_countdown.DailyCounter .titulo_clock{ 
+  	  font-size: 10px !important;
+  	}
+     #popup_countdown.DailyCounter .clock{ 
+      zoom: 0.4;
+    }
+    
+    
+    
+}
+  @media screen and (max-width: 350px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 80%  !important; 
+    }
+    .clock{ 
+      zoom: 0.3;
+      width:630px !important; 
+    }
+    .titulo_clock{
+      font-size:10px !important; 
+    }
+    #dv_titulos_clock {
+      width: 170px;
+    }
+    
+    #popup_countdown.DailyCounter #dv_titulos_clock{ 
+  	  width: 170px;
+  	}
+     #popup_countdown.DailyCounter .titulo_clock{ 
+  	  font-size: 10px !important;
+  	}
+     #popup_countdown.DailyCounter .clock{ 
+      zoom: 0.35;
+    }
+    
+    
+    
+  }
