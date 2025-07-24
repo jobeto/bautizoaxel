@@ -15,6 +15,9 @@ html, body {
   margin: 0;
 }
 
+.rowblue {
+    background-color: #beeff1;
+  }  
 
 .container2 {
     align-items: center;
