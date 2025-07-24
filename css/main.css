@@ -16,14 +16,14 @@
 
 .content1 {
     font-family: 'Fira Sans', normal;
-    font-size: medium;
-    color: rgb(178, 140, 79) !important;
+    font-size: large;
+    color: rgb(213, 165, 214) !important;
 }
 
 .content2 {
     font-family: 'Fira Sans', normal;
-    font-size: small;
-    color: rgb(190, 154, 136) !important;
+    font-size: medium;
+    color: rgb(213, 165, 214) !important;
 }
 
 .map-grid {
@@ -38,6 +38,6 @@
 
 
 .button1 {
-    background-color: rgba(230, 135, 146, 0.2);
+    background-color: rgba(190, 239, 242, 0.9);
 }
 
