@@ -41,3 +41,8 @@
     background-color: rgba(190, 239, 242, 0.9);
 }
 
+
+.flex-container {
+      align-content: center;
+ }
+
