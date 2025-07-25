@@ -11,7 +11,7 @@
 .content0 {
     font-family: 'Fira Sans', normal;
     font-size: x-large;
-    color: rgb(190, 239, 242) !important;
+    color: rgb(255, 0, 157) !important;
 }
 
 .content1 {
@@ -38,7 +38,7 @@
 
 
 .button1 {
-    background-color: rgba(213, 165, 214, 1);
+    background-color: rgba(213, 165, 214, 0.5);
 }
 
 
