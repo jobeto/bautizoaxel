@@ -35,6 +35,7 @@ html, body {
   color: #d5a6d6;
   margin: 0 auto;
   text-align: center;
+  max-width: 1429px;
 }
 
 h1 {
