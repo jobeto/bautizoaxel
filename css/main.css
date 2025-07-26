@@ -61,3 +61,49 @@
 	outline: inherit;
 }
 
+#popdiv {
+  opacity: 0;
+  visibility: hidden;
+  transition: 500ms ease-in-out;
+  transition-property: opacity, visibility;
+}
+
+#popdiv.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.show {
+  animation: show 0.7s ease-in forwards;
+}
+
+.hide {
+  animation: hide 0.7s ease-out forwards;
+}
+
+/* Animation keyframes */
+
+@keyframes show {
+  0% {
+    content-visibility: hidden;
+    color: rgb(0 0 0 / 0%);
+  }
+
+  100% {
+    content-visibility: visible;
+    color: rgb(0 0 0 / 100%);
+  }
+}
+
+@keyframes hide {
+  0% {
+    content-visibility: visible;
+    color: rgb(0 0 0 / 100%);
+  }
+
+  100% {
+    content-visibility: hidden;
+    color: rgb(0 0 0 / 0%);
+  }
+}
+
